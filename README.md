@@ -14,11 +14,11 @@ A pre-trained machine learning project, using of tools like Web Workers for the 
 
 ## Features
 - Titles List
-  - [] - WebCam mapping of eyes and hands using TensorFlowJS
-  - [] - Hands drawn in the screen using HTML Canvas and JavaScript!
-  - [] - Activates scroll-up when the palm of the hands are wide open 🖐
-  - [] - Activates scroll down when closing hands ✊
-  - [] - Activates click into the nearest element when using a pinch gesture 🤏🏻
+  - [x] - WebCam mapping of eyes and hands using TensorFlowJS
+  - [x] - Hands drawn in the screen using HTML Canvas and JavaScript!
+  - [x] - Activates scroll-up when the palm of the hands are wide open 🖐
+  - [x] - Activates scroll down when closing hands ✊
+  - [x] - Activates click into the nearest element when using a pinch gesture 🤏🏻
 
 - Video Player
   - [x] - Reproduce or pause a video with the blink of your eyes 😁
