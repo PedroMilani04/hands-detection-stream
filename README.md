@@ -1,4 +1,4 @@
-# JSExpertMax Gesture Controller - Semana JS Expert 7.0
+# <a href="https://pedromilani04.github.io/hands-detection-stream/pages/titles/"> JSExpertMax Gesture Controller </a>
 
 A pre-trained machine learning project, using of tools like Web Workers for the Machine Learning process execution, TensorFlowJS and a variety of APIs. This project was based in the <a href="https://github.com/ErickWendel/semana-javascript-expert07"> JavaScript Expert Week #7 </a>, hosted by <a href="https://github.com/ErickWendel"> Erick Wendel</a>.
 
