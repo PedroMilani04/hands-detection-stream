@@ -1,37 +1,25 @@
 # JSExpertMax Gesture Controller - Semana JS Expert 7.0
 
-A pre-trained machine learning project, using of tools like Web Workers, TensorFlowJS and a variety of APIs. This project was based in the <a href="https://github.com/ErickWendel/semana-javascript-expert07"> JavaScript Expert Week #7 </a>, hosted by <a href="https://github.com/ErickWendel"> Erick Wendel </a>
+A pre-trained machine learning project, using of tools like Web Workers for the Machine Learning process execution, TensorFlowJS and a variety of APIs. This project was based in the <a href="https://github.com/ErickWendel/semana-javascript-expert07"> JavaScript Expert Week #7 </a>, hosted by <a href="https://github.com/ErickWendel"> Erick Wendel </a>
 
-
-## Preview
-<img width=100% src="./assets/demo-template-lg.gif">
 
 ## Pre-reqs
 
-- Este projeto foi criado usando Node.js v19.6
+- This project was created using Node.js v19.6
 
 ## Running
 
-- Execute `npm ci` para restaurar os pacotes
-- Execute `npm start` e em seguida vá para o seu navegador em [http://localhost:3000](http://localhost:3000) para visualizar a página acima
+- Execute `npm ci` to recover packages
+- Execute `npm start`, then open [http://localhost:3000] in your web browser
 
-## Checklist Features
+## Features
 - Titles List
-  - [x] - Campo para pesquisa não deve travar ao digitar termo de pesquisa
-  - [] - Deve desenhar mãos na tela e fazer com que elementos em segundo plano  continuem sendo clicáveis  🙌
-  - [] - Deve disparar scroll up quando usar a palma das mãos abertas 🖐
-  - [] - Deve disparar scroll down quando usar a palma das mãos fechadas ✊
-  - [] - Deve disparar click no elemento mais próximo quando usar  gesto de pinça 🤏🏻
-  - [] - Ao mover elementos na tela, deve disparar evento **:hover** em elementos em contexto
+  - [] - WebCam mapping of eyes and hands using TensorFlowJS
+  - [] - Hands drawn in the screen using HTML Canvas and JavaScript!
+  - [] - Activates scroll-up when the palm of the hands are wide open 🖐
+  - [] - Activates scroll down when closing hands ✊
+  - [] - Activates click into the nearest element when using a pinch gesture 🤏🏻
 
 - Video Player
-  - [x] - Deve ser possivel de reproduzir ou pausar videos com o piscar de olhos 😁
-  - [x] - Todo processamento de Machine Learning deve ser feito via Web worker
-
-### Considerações
-- Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!
-
-- Ao completar qualquer um dos desafios, envie no canal **#desafios** da comunidade no **Discord**
-
-### Créditos ao Layout
-- Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
+  - [x] - Reproduce or pause a video with the blink of your eyes 😁
+  - [x] - All Machine Learning processing must be done via a Web worker
