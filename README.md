@@ -1,6 +1,6 @@
 # JSExpertMax Gesture Controller - Semana JS Expert 7.0
 
-A pre-trained machine learning project, using of tools like Web Workers, TensorFlowJS and a variety of APIs. This project was based in the <a href="https://github.com/ErickWendel/semana-javascript-expert07"> ASASAS </a>
+A pre-trained machine learning project, using of tools like Web Workers, TensorFlowJS and a variety of APIs. This project was based in the <a href="https://github.com/ErickWendel/semana-javascript-expert07"> JavaScript Expert Week #7 </a>, hosted by <a href="https://github.com/ErickWendel"> Erick Wendel </a>
 
 
 ## Preview
