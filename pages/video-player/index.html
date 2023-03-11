@@ -21,20 +21,92 @@
       width: 70%;
       margin-left: 15vw;
       margin-right: 15vw;
-      margin-top: 6vh;
+      margin-top: 3vh;
       border-radius: 30px;
+    }
+
+    #status {
+      margin-left: 20px;
     }
 
     body {
       background-color: #121212;
+      font-family: 'Montserrat', sans-serif;
+
     }
     button {
-      margin: 10px;
+      margin: 2.5vh;
+      height: 40px;
+      width: auto;
+      border-radius: 5px;
+      color: white;
+      background-color: #e41d59;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+      padding: 10px;
+      padding-bottom: 10px;
+      border: 0;
+      font-weight: 600;
+      display: flex;
+    }
+
+
+    .btn1 {
+      width: 140px;
+    }
+
+    #init {
+      width: 260px;
+    }
+    a {
+      text-decoration: none;
+    }
+    .svg11 {
+      width: 20px;
+      margin-right: 10px;
+    }
+
+   .status1 {
+    display: flex;
+   }
+    #status {
+      color: white;
     }
 
     .button-container {
       margin-left: 20px;
     }
+
+    @media(max-width: 1440px) {
+      .btn1 {
+        width: 140px
+      }
+    }
+    @media(max-width: 768px) {
+      #status {
+        font-size: .7rem;
+      }
+
+    
+    }
+    @media(max-width: 425px) {
+      button {
+        width: 10vw;
+        font-size: .7rem;
+      }
+      #status {
+        margin-left: 17px;
+      }
+    }
+    @media(max-width: 375px) {
+      #init {
+        font-size: .5rem;
+      }
+      #status {
+        margin-left: 17px;
+      }
+    }
+
   </style>
 </head>
 
@@ -42,13 +114,14 @@
   <canvas id="hands"></canvas>
 
   <div class="button-container">
-    <div>
+    <div class="status1">
       <a href="https://pedromilani04.github.io/hands-detection-stream/pages/titles/">
-        <button>Go back</button>
+        <button class="btn1"> <svg class="svg11"version="1.1" id="ios7_x5F_arrows_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve"><style>.st0{display:none}.st1{display:inline}</style><g id="_x31_6_1_"><path d="M64.1 0C28.8 0 .2 28.7.2 64s28.6 64 63.9 64S128 99.3 128 64c-.1-35.3-28.7-64-63.9-64zm0 122.7C31.7 122.7 5.5 96.4 5.5 64c0-32.4 26.2-58.7 58.6-58.7 32.3 0 58.6 26.3 58.6 58.7-.1 32.4-26.3 58.7-58.6 58.7zM72 37.3 42.8 64 72 90.7l5.3-2.7-24.5-24 24.6-23-5.4-3.7z" id="icon_23_"/></g></svg> Go back</button>
       </a>
       <button type="button" disabled id="init"> Initialize Blink Recognition</button>
-      <output id="status"></output>
     </div>
+    <output id="status"></output>
+
   </div>
   <video id="video" type="video/mp4" controls>
     <source src="https://drive.google.com/uc?export=download&id=1yldVVyWeuwvU6K8yYTe9exNa82Zx2arb"
