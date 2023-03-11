@@ -10,9 +10,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body id="body">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   <canvas id="hands"></canvas>
   <div class="content">
     <div class="header">
@@ -46,10 +52,10 @@
     <div class="top">
       <div class="image-container">
         <div class="left-side">
-          <h1>Interstellar</h1>
-          <p>Follow a group of astronauts from the future through the cosmos in search of an earthly replacement, what
+          <h1 data-aos="fade-right" data-aos-duration="1100">Interstellar</h1>
+          <p data-aos="fade-left" data-aos-duration="1100">Follow a group of astronauts from the future through the cosmos in search of an earthly replacement, what
             will happen next?</p>
-          <div class="button-section">
+          <div class="button-section" data-aos="zoom-out" data-aos-duration="1300">
             <div class="watch">
               <h3>Play</h3>
               <svg fill="currentColor" viewBox="0 0 16 16">
@@ -72,13 +78,13 @@
     </div>
     <div class="mid">
       <div class="content-area" id="trending">
-        <h2 class="content-title">TRENDING</h2>
+        <h2 class="content-title" data-aos="fade-right">TRENDING</h2>
         <div class="default-carousel card-carousel">
 
         </div>
       </div>
       <div class="content-area" id="releases">
-        <h2 class="content-title">NEW RELEASES</h2>
+        <h2 class="content-title" data-aos="fade-right">NEW RELEASES</h2>
         <div class="default-carousel card-carousel">
 
         </div>
